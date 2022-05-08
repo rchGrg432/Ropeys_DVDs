@@ -55,5 +55,16 @@ namespace Ropeys_DVDs
             GridView1.DataBind();
             con.Close();
         }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+
+        }
+
+        protected void btnRegister_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Register.aspx");
+        }
     }
 }

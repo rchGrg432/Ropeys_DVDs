@@ -13,9 +13,9 @@
             <asp:Label ID="Label1" runat="server" Text="LOGIN"></asp:Label>
             <br />
             <br />
-            <asp:Label ID="Label2" runat="server" Text="Username"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Text="Email"></asp:Label>
 &nbsp;&nbsp;
-            <asp:TextBox ID="tbUsername" runat="server"></asp:TextBox>
+            <asp:TextBox ID="tbEmail" runat="server"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="Label3" runat="server" Text="Password"></asp:Label>
@@ -23,12 +23,12 @@
             <asp:TextBox ID="tbPassword" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="btnLogin" runat="server" Text="Login" Width="79px" />
+            <asp:Button ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Login" Width="79px" />
             <br />
             <br />
             Don&#39;t have an account?
             <br />
-            <asp:Button ID="btnRegister" runat="server" Text="Register" />
+            <asp:Button ID="btnRegister" runat="server" OnClick="btnRegister_Click" Text="Register" />
         </div>
     </form>
 </body>

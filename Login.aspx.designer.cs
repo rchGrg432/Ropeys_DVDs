@@ -42,13 +42,13 @@ namespace Ropeys_DVDs
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// tbUsername control.
+        /// tbEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbUsername;
+        protected global::System.Web.UI.WebControls.TextBox tbEmail;
 
         /// <summary>
         /// Label3 control.
