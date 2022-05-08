@@ -24,6 +24,15 @@ namespace Ropeys_DVDs
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
         /// tbSurname control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace Ropeys_DVDs
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button AllDVDB;
+
+        /// <summary>
+        /// btnViewAllDVDs control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnViewAllDVDs;
 
         /// <summary>
         /// btnAvailableDVD control.
