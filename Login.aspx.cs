@@ -23,7 +23,7 @@ namespace Ropeys_DVDs
                "Database = CourseworkDatabase;" +
                "Trusted_Connection = True;";
 
-            string query = "spGetUserWithCredentials";
+            string query = "spForLogin";
 
             /*string query = "select * from LogInTable"
                 + " where email='" + TxtBoxEmail.Text + "' and password = '" + TxtBoxPassword.Text + "' ";*/
@@ -32,7 +32,7 @@ namespace Ropeys_DVDs
             {
                 SqlCommand cmd = new SqlCommand(query, connection);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@email", tbEmail.Text);
+                cmd.Parameters.AddWithValue("@Username", tbEmail.Text);
                 cmd.Parameters.AddWithValue("@password", tbPassword.Text);
 
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);

@@ -33,15 +33,6 @@ namespace Ropeys_DVDs
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// ContentPlaceHolder1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
-
-        /// <summary>
         /// btnHome control.
         /// </summary>
         /// <remarks>
@@ -51,31 +42,22 @@ namespace Ropeys_DVDs
         protected global::System.Web.UI.WebControls.Button btnHome;
 
         /// <summary>
-        /// btnHome0 control.
+        /// btnMembers control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnHome0;
+        protected global::System.Web.UI.WebControls.Button btnMembers;
 
         /// <summary>
-        /// btnHome1 control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnHome1;
-
-        /// <summary>
-        /// btnHome2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnHome2;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
         /// btnProfile control.
@@ -94,6 +76,15 @@ namespace Ropeys_DVDs
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnLogOut;
+
+        /// <summary>
+        /// ContentPlaceHolder1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
 
         /// <summary>
         /// Label1 control.

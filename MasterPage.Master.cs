@@ -13,5 +13,25 @@ namespace Ropeys_DVDs
         {
 
         }
+
+        protected void btnHome_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MainHome.aspx");
+        }
+
+        protected void btnMembers_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Members.aspx");
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LoanDVDs");
+        }
+
+        protected void btnProfile_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Profile.aspx");
+        }
     }
 }

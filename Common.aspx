@@ -17,8 +17,6 @@
             <br />
             <br />
             <br />
-            <br />
-            <br />
             <asp:TextBox ID="tbSurname" runat="server"></asp:TextBox>
             &nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="AllDVDB" runat="server" OnClick="AllDVDB_Click" Text="Search" />
             <br />

@@ -11,7 +11,7 @@ namespace Ropeys_DVDs
 {
 
 
-    public partial class Home
+    public partial class MainHome
     {
 
         /// <summary>
@@ -33,66 +33,75 @@ namespace Ropeys_DVDs
         protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// Label3 control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// tbSurname control.
+        /// btnTitlesCopiesByActor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbSurname;
+        protected global::System.Web.UI.WebControls.Button btnTitlesCopiesByActor;
 
         /// <summary>
-        /// AllDVDB control.
+        /// detialsdvdBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AllDVDB;
+        protected global::System.Web.UI.WebControls.Button detialsdvdBtn;
 
         /// <summary>
-        /// btnViewAllDVDs control.
+        /// copydetialsBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnViewAllDVDs;
+        protected global::System.Web.UI.WebControls.Button copydetialsBtn;
 
         /// <summary>
-        /// btnAvailableDVD control.
+        /// enternewTitleBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAvailableDVD;
+        protected global::System.Web.UI.WebControls.Button enternewTitleBtn;
 
         /// <summary>
-        /// GridView1 control.
+        /// removeOldDvdsBTn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.Button removeOldDvdsBTn;
 
         /// <summary>
-        /// Label5 control.
+        /// dvdOnLoanBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.Button dvdOnLoanBtn;
+
+        /// <summary>
+        /// notLoanedDvdsBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button notLoanedDvdsBtn;
     }
 }

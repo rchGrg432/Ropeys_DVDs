@@ -67,16 +67,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ActorsDVDs.aspx" />
+    <Content Include="addNewDVDTitles.aspx" />
     <Content Include="Common.aspx" />
-    <Content Include="DVDs.aspx" />
+    <Content Include="CopyDetails.aspx" />
+    <Content Include="Details of DVD.aspx" />
+    <Content Include="DVDsOnLoan.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="Images\DVD.jpg" />
+    <Content Include="LoanDVDs.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="MainHome.aspx" />
     <Content Include="Members.aspx" />
+    <Content Include="notLoanedDVDs.aspx" />
     <Content Include="Profile.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="RemoveOldDVDs.aspx" />
+    <Content Include="TitlesCopiesByActor.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActorsDVDs.aspx.cs">
+      <DependentUpon>ActorsDVDs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActorsDVDs.aspx.designer.cs">
+      <DependentUpon>ActorsDVDs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addNewDVDTitles.aspx.cs">
+      <DependentUpon>addNewDVDTitles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addNewDVDTitles.aspx.designer.cs">
+      <DependentUpon>addNewDVDTitles.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Common.aspx.cs">
       <DependentUpon>Common.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -84,12 +108,26 @@
     <Compile Include="Common.aspx.designer.cs">
       <DependentUpon>Common.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DVDs.aspx.cs">
-      <DependentUpon>DVDs.aspx</DependentUpon>
+    <Compile Include="CopyDetails.aspx.cs">
+      <DependentUpon>CopyDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DVDs.aspx.designer.cs">
-      <DependentUpon>DVDs.aspx</DependentUpon>
+    <Compile Include="CopyDetails.aspx.designer.cs">
+      <DependentUpon>CopyDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Details of DVD.aspx.cs">
+      <DependentUpon>Details of DVD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Details of DVD.aspx.designer.cs">
+      <DependentUpon>Details of DVD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DVDsOnLoan.aspx.cs">
+      <DependentUpon>DVDsOnLoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DVDsOnLoan.aspx.designer.cs">
+      <DependentUpon>DVDsOnLoan.aspx</DependentUpon>
     </Compile>
     <Compile Include="Helper.cs" />
     <Compile Include="Home.aspx.cs">
@@ -99,12 +137,26 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="LoanDVDs.aspx.cs">
+      <DependentUpon>LoanDVDs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoanDVDs.aspx.designer.cs">
+      <DependentUpon>LoanDVDs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainHome.aspx.cs">
+      <DependentUpon>MainHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainHome.aspx.designer.cs">
+      <DependentUpon>MainHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -119,6 +171,13 @@
     </Compile>
     <Compile Include="Members.aspx.designer.cs">
       <DependentUpon>Members.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notLoanedDVDs.aspx.cs">
+      <DependentUpon>notLoanedDVDs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notLoanedDVDs.aspx.designer.cs">
+      <DependentUpon>notLoanedDVDs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
@@ -135,6 +194,20 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="RemoveOldDVDs.aspx.cs">
+      <DependentUpon>RemoveOldDVDs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemoveOldDVDs.aspx.designer.cs">
+      <DependentUpon>RemoveOldDVDs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TitlesCopiesByActor.aspx.cs">
+      <DependentUpon>TitlesCopiesByActor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TitlesCopiesByActor.aspx.designer.cs">
+      <DependentUpon>TitlesCopiesByActor.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage.Master" />
@@ -146,6 +219,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

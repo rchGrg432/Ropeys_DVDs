@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Ropeys_DVDs
 {
-    public partial class DVDs : System.Web.UI.Page
+    public partial class TitlesCopiesByActor : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
