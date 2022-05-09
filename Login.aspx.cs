@@ -19,7 +19,7 @@ namespace Ropeys_DVDs
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            string conStr = @"Data Source = .\SQLEXPRESS;" +
+            string conStr = @"Data Source = .\SQLEXPRESS01;" +
                "Database = CourseworkDatabase;" +
                "Trusted_Connection = True;";
 

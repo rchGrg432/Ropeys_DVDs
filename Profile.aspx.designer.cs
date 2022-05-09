@@ -33,6 +33,15 @@ namespace Ropeys_DVDs
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
+        /// usernamelbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label usernamelbl;
+
+        /// <summary>
         /// Label3 control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace Ropeys_DVDs
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label3;
+
+        /// <summary>
+        /// usertypelbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label usertypelbl;
 
         /// <summary>
         /// adminPanel control.
@@ -141,12 +159,12 @@ namespace Ropeys_DVDs
         protected global::System.Web.UI.WebControls.TextBox tbReNewPassword;
 
         /// <summary>
-        /// Button1 control.
+        /// chngBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button chngBtn;
     }
 }

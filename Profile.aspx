@@ -10,11 +10,13 @@
     <br />
     &nbsp;&nbsp;&nbsp;
     <asp:Label ID="Label1" runat="server" Text="Username : "></asp:Label>
+    &nbsp;<asp:Label ID="usernamelbl" runat="server" Text="Username"></asp:Label>
     <br />
     &nbsp;&nbsp;&nbsp;
     <br />
     &nbsp;&nbsp;&nbsp;
     <asp:Label ID="Label3" runat="server" Text="UserType : "></asp:Label>
+    <asp:Label ID="usertypelbl" runat="server" Text="User Type"></asp:Label>
     <br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br />
@@ -63,7 +65,9 @@
         &nbsp;
         <asp:Label ID="Label11" runat="server" Text="Re-Type New Password : "></asp:Label>
         &nbsp;<asp:TextBox ID="tbReNewPassword" runat="server"></asp:TextBox>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button1" runat="server" BackColor="#000066" ForeColor="White" Text="Change Password" />
+        &nbsp;&nbsp;&nbsp;&nbsp;<br /> &nbsp;&nbsp;
+        <asp:Button ID="chngBtn" runat="server" Text="Change Password" OnClick="chngBtn_Click" />
+        <br />
+        <br />
     </asp:Panel>
 </asp:Content>

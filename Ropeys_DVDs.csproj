@@ -81,7 +81,6 @@
     <Content Include="Register.aspx" />
     <Content Include="RemoveOldDVDs.aspx" />
     <Content Include="TitlesCopiesByActor.aspx" />
-    <Content Include="try.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -205,13 +204,6 @@
     </Compile>
     <Compile Include="TitlesCopiesByActor.aspx.designer.cs">
       <DependentUpon>TitlesCopiesByActor.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="try.aspx.cs">
-      <DependentUpon>try.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="try.aspx.designer.cs">
-      <DependentUpon>try.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

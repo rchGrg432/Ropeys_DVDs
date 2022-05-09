@@ -1,6 +1,17 @@
 ﻿<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Ropeys_DVDs.Login" %>--%>
 
 <!DOCTYPE html>
+<script runat="server">
+
+    Protected Sub btnLogin_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Protected Sub btnRegister_Click(sender As Object, e As EventArgs)
+
+    End Sub
+</script>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">

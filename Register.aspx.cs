@@ -13,5 +13,10 @@ namespace Ropeys_DVDs
         {
 
         }
+
+        protected void lgBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }

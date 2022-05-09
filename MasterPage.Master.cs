@@ -33,5 +33,10 @@ namespace Ropeys_DVDs
         {
             Response.Redirect("Profile.aspx");
         }
+
+        protected void BtnLogOut_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
